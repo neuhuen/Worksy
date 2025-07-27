@@ -1,0 +1,28 @@
+.nab {
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.nab a {
+    background-color: #e0e0e0; /* Fondo diferente */
+    color: darkgreen;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nab a:active {
+    background-color: darkgreen;
+    color: #fff; /* Cambia el color al presionar */
+}
+
+.nab nav {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
