@@ -1,2 +1,0 @@
-# Worksy
-Proyecto kodland
